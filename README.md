@@ -1,7 +1,7 @@
 # Serverside Code Execution POC
 Built for LLVM 19.1 - Windows x64 <br> <br>
 
-One of the EASIEST ways to disrupt obfuscation, is by removing the code to begin with. Arithmetic code is very simple to remove.
+One of the EASIEST ways to disrupt deobfuscation, is by removing the code to begin with. Arithmetic code is very simple to remove.
 * We simply represent the code with a hash and the parameters.
 * Connect to our websocket instance
 * Send the hash and parameters off to the server
